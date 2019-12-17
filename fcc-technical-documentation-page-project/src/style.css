@@ -1,0 +1,140 @@
+/* Full Page Style */
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+
+html {
+  background: #c0c5ce;
+  line-height: 1.5em;
+  font-family: Raleway, Arial;
+}
+
+/* Navbar Style */
+
+#navbar {
+  height: 100%;
+  width: 290px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #c2c0ce;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 20px;
+}
+
+#navbar header {
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 30px;
+  font-size: 29px;
+  font-weight: thin;
+}
+
+/* Navbar List Stlye */
+
+.nav-list {
+  list-style-type: none;
+  border-top: 1px solid;
+  position: relative;
+  right: 13%;
+  width: 100%;
+}
+
+/* Navbar Links Stlye */
+
+.nav-link {
+  padding: 30px 15px 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+  display: block;
+  border-top: 1px solid;
+  text-align: center;
+}
+
+#navbar a:hover {
+  background-color: #acacac;
+  color: #fff;
+}
+
+/* Media Only Stle */
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    padding-top: 15px;
+  }
+
+  #navbar a {
+    font-size: 18px;
+  }
+}
+
+/* Main Stlye */
+
+#main-doc {
+  margin-left: 290px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Header Style */
+
+header {
+  margin: 15px;
+  margin-bottom: 25px;
+  text-align: left;
+  font-size: 1.8em;
+}
+
+/* Main Section Stlye */
+
+.main-section {
+  margin: 15px;
+}
+
+/* Section Article Stlye */
+
+section article {
+  margin: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+section a {
+  text-decoration: none;
+  color: #056273;
+}
+
+section a:hover {
+  color: #e9ebee;
+}
+
+/* 4th Section Style */
+
+#list-one {
+  line-height: 1.8em;
+  padding-bottom: 10px;
+}
+
+/* 5th Section Style */
+
+#list-two {
+  line-height: 1.8em;
+}
+
+/* 6th Section Style */
+
+#list-three {
+  font-weight: 550;
+  line-height: 1.8em;
+}
+
+#list-three li {
+  padding: 10px;
+}
+
+/* 7th Section Style */

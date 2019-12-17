@@ -1,0 +1,70 @@
+<header id="page-header">
+  <h1 id="title">
+    Customer Satisfaction Survey</h1>
+  <p id="description">Thank you for taking the time to help us improve your shopping experience</p>
+</header>
+<div id="container">
+  <form id="survey-form" action="submit">
+    <p>
+      <label id="name-label" for="name-label">Name:</label>
+      <input class="form-fields" id="name" type="text" placeholder="Enter your name" name="name-field" required>
+    </p>
+    <p>
+      <label id="email-label" for="email-label">Email:</label>
+      <input class="form-fields" id="email" type="email" placeholder="Enter your Email" name="email-field" required>
+    </p>
+    <p>
+      <label id="date-label" for="date-label">Today's Date:</label>
+      <input class="form-fields" id="date" type="date" min="2019-01-01" name="date-field" required>
+    </p>
+    <p>
+      <label id="number-label" for="number-label">Phone Number:</label>
+      <input class="form-fields" id="number" type="number" placeholder="123-456-7890" min="10" max="10" name="number-field" required>
+    </p>
+    <div id="dropdown-group">
+      <p>How was your shopping experience?</p>
+      <label for="dropdown-label">Please select one:</label>
+      <select class="weight" id="dropdown" name="dropdown-select">
+      <option value="">Select your shopping experience </option>
+      <option value="excellent">Excellent</option>
+      <option value="good">Good</option>
+      <option value="okay">Okay</option>
+      <option value="bad">Bad</option>
+      <option value="horrible">Horrible</option>
+    </select>
+    </div>
+    <p>How would you recommend shopping here to a friend?</p>
+    <div class="box1" id="radio-group">
+      <label for="yes">
+      <input id="yes" value="yes" type="radio" name="recommend" checked>Yes</label><br>
+      <label for="no">
+      <input id="no" value="no" type="radio" name="recommend">No</label><br>
+      <label for="unsure">
+      <input id="unsure" value="unsure" type="radio" name="recommend">Unsure</label>
+    </div><br>
+    <p>Where are some areas we can improve? (Check all that apply)
+      <div id="checkbox-group">
+        <label for="customer">
+      <input id="customer" value="customer-service" type="checkbox" name="improve">Customer Service</label><br>
+        <label for="online">
+      <input id="online" value="online-service" type="checkbox" name="improve">Online Service</label><br>
+        <label for="stock">
+      <input id="stock" value="shelve-stock" type="checkbox" name="improve">Keeping shelves stocked</label><br>
+        <label for="clean">
+      <input id="clean" value="clean" type="checkbox" name="improve">Tidying up</label><br>
+        <label for="lines">
+      <input id="lines" value="lines" type="checkbox" name="improve">Faster Lines</label><br>
+        <label for="new-products">
+      <input id="new-products" value="new-products" type="checkbox" name="improve">Wider selection of products</label><br>
+        <label for="other">
+      <input id="other" value="other" type="checkbox" name="improve">Other</label>
+      </div><br>
+      <div id="textbox-area">
+        <label for="textbox">Have any suggestions?</label><br>
+        <textarea class="weight" id="textbox" name="textbox" rows="7" cols="70">Please enter your suggestions here</textarea>
+      </div><br>
+      <div id="sub-button">
+        <button class="weight" id="submit" type="submit">Submit</button>
+      </div>
+  </form>
+</div>

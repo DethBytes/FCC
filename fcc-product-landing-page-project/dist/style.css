@@ -1,0 +1,174 @@
+/* Whole Page Section */
+
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+
+* {
+  background-color: #20b2aa;
+  font-family: Lilita One, Arial;
+  color: #ff0000;
+  line-height: 1.5;
+}
+
+/* Header Nav Section */
+
+#nav-bar {
+  overflow: hidden;
+  background: #000;
+  position: fixed;
+  top: 0;
+  right: 0.1%;
+  width: 100%;
+  list-stlye-type: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-link  {
+  float: right;
+  display: block;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 8px 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  background: #1f1f1f;
+  color: #999;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+/* Header Logo Section */
+
+.logo {
+  margin: 40px 5px 20px 10px;
+}
+
+/* Title Section */
+
+.welcome {
+  text-align: center;
+  margin: -180px 10px 10px 10px;
+  font-size: 3em;
+  text-shadow: 1px 1px #000
+}
+
+/* Form Section */
+
+.container1 {
+  text-align: center;
+  padding: 3px 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.shadow {
+  text-shadow: 1px 1px #000
+}
+
+#email {
+  width: 400px;
+  height: 23px;
+  padding-left: 6px;
+  background: #fff;
+  color: #000;
+  font-weight: 548;
+  box-shadow: 1px 2px;
+}
+
+#submit {
+  text-align: center;
+  width: 130px;
+  height: 35px;
+  margin-bottom: 9.5em;
+  background: #ffd700;
+  color: #000;
+  font-weight: 550;
+  box-shadow: 1px 2px;
+}
+
+/* Section One */
+
+.container2 {
+  display: block;
+  margin: 50px 50px 200px 17em;
+  padding-top: 40px;
+  padding-right: 100px;
+  font-size: 18px;
+  text-shadow: 1px 1px #000
+}
+
+/* Section Two */
+
+.flex-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -3em;
+  margin-bottom: 14em;
+  font-size: 18px;
+  text-shadow: 1px 1px #000
+}
+
+.flex-container p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 550;
+  padding-top: 5px;
+}
+
+/* Section Three */
+
+.container3 {
+  display: block;
+  margin: 50px 50px 200px 13em;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  font-size: 18px;
+  text-shadow: 1px 1px #000
+}
+
+/* Section Four */
+
+.footer{
+  text-align: right;
+  margin-right: 8px;
+  font-size: 18px;
+  text-shadow: 1px 1px #000
+}
+
+.footer li {
+  display: inline-block;
+  text-align: center;
+  padding: 0px 4px;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 550;
+  padding: 2px;
+  color: #ff0000;
+  font-size: 18px;
+}
+
+#copy {
+  margin-right: 8px;
+  font-weight: 500;
+  color: #ff0000;
+}
+
+.footer a:hover {
+  color: #fff;
+}

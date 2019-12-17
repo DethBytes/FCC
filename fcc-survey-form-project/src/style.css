@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+html {
+  font-family: Raleway, Arial;
+  background: #99cc33;
+  color: #191919;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+}
+
+#container {
+  postion: absolute;
+  background: #3399cc;
+  margin: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 25px;
+}
+
+#survey-form {
+  postion: absolute;
+  margin-right: 200px;
+  margin-left: 150px;
+  font-weight: 900;
+  line-height: 30px;
+}
+
+.form-fields {
+  postion: absolute;
+  width: 100%;
+  font-size: 16px;
+  font-family: Raleway;
+  margin-bottom: 20px;
+}
+
+.weight {
+  font-weight: 600;
+  font-family: Raleway;
+}
+
+#dropdown {
+  postion: absolute;
+  margin-bottom: 20px;
+}
+
+#submit {
+  width: 50%;
+  margin-left: 120px;
+}
+
+button {
+  postion: absolute;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  color: #cc9933;
+  opacity: 0.9;
+}
+
+#radio-group {
+  line-height: 20px;
+}
+
+#checkbox-group {
+  line-height: 20px;
+}
+
+#textbox-area {
+  postion: absolute;
+  line-height: 35px;
+}
+
+#textbox {
+  padding: 7px;
+}

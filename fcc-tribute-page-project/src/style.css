@@ -1,0 +1,67 @@
+html {
+  font-family: Cinzel, Arial;
+  font-size: 16px;
+  background: #36454f;
+}
+
+body {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #a7adba;
+}
+
+a:hover {
+  color: #dcedc1;
+}
+
+#main {
+  margin: 30px 8px;
+  background: #536878;
+  padding: 15px;
+}
+
+#img-div {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  margin: auto;
+  padding: 25px;
+  background: #708090;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#img-caption {
+  text-algin: center;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+#bio-title {
+  margin: auto;
+  padding-top: 20px;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  margin: 20px;
+  padding: 10px;
+  pading-left: 30px;
+  padding-right: 30px;
+  font-weight: 550;
+}
+
+#link {
+  font-weight: 300;
+}
